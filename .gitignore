@@ -1,0 +1,37 @@
+# Virtual environments
+backend/venv/
+.venv/
+env/
+venv/
+ENV/
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Local configuration / secrets
+.env
+backend/.env
+frontend/.env
+*.env
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local Vector Databases / User Data Uploads
+backend/vector_store/
+backend/test_vector_store/
+backend/user_uploads/
+vector_store/
+user_uploads/
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
